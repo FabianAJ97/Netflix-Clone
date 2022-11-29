@@ -196,7 +196,7 @@ justify-content: center;
     font-weight: 600;
 }
 .table tbody tr:nth-child(odd){
-    background-color: var(--clr-darkgrey);
+    background-color: var(--clr-black);
 }
 
 
