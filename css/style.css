@@ -18,7 +18,7 @@
 body{
     font-family: 'Arial', sans-serif;
     -webkit-font-smoothing: antialiased;
-    background: var(--clr-black);
+    background: black;
     color: var(--text-color);
 }
 ul{
@@ -107,9 +107,9 @@ img{
 }
 /* Tabs */
 .tabs{
-    background: var(--clr-darkgrey);
+    background: black;
     padding-top: 1rem;
-    border-bottom: 3px solid var(--clr-lightgrey);
+    border-bottom: 3px solid var(--clr-darkgrey);
 }
 .tabs .container{
     display: grid;
@@ -138,7 +138,7 @@ img{
 /* Tab Content */
 .tab-content{
     padding: 3rem 0;
-    background: var(--clr-black);
+    background: black;
     color: var(--text-color);
 }
 
@@ -204,6 +204,7 @@ justify-content: center;
 #extra-content{
     height: auto;
     margin-bottom: 1rem;
+    background-color: black;
 }
 #extra-content .extra-content-inner{
 display: grid;
@@ -220,7 +221,7 @@ justify-content: center;
 .extra-content .extra-content-inner img{
     padding: 50px 5%;
     background: rgba(0, 0, 0, 0.3);
-    box-shadow: inset 50px 20px 50px 50px var(--clr-black);
+    box-shadow: inset 50px 20px 50px 50px black;
     height: auto;
     max-width: 100%;
 
